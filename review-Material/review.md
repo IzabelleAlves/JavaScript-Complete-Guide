@@ -6,7 +6,7 @@ JavaScript é uma linguagem de programação usada principalmente para criar int
 
 ## 2. O que são variáveis?
 
-Variáveis são alocações de memória no computador para manipulação de dados.
+Variáveis são alocações de memória no computador para armazenar e manipulaçar de dados.
 
 ## 3. Quais são as palavras-chave para declarar variáveis em JavaScript? Qual é a diferença entre elas?
 
