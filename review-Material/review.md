@@ -41,3 +41,7 @@ Uma função de callback é uma função passada como argumento para outra funç
 
 - **`null`**: Representa ausência intencional de valor.
 - **`undefined`**: Indica que uma variável foi declarada, mas não inicializada, ou que uma propriedade/valor não existe.
+
+## 9. O que é Hoisting em JavaScript?
+
+**Hoisting** é o comportamento do JavaScript onde declarações de variáveis e funções são "movidas" para o topo de seu escopo antes da execução do código.
