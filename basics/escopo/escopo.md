@@ -52,9 +52,9 @@ console.log(blocoConst); // Acessível apenas dentro do bloco onde foi declarada
 
 ## **4. Escopo e Hoisting**
 
-### O que é o Hoisting?
+**O que é o Hoisting?**
 
-## O hoisting é o comportamento em JavaScript onde as declarações de variáveis e funções são "movidas" para o topo de seu escopo antes da execução do código.
+O hoisting é o comportamento em JavaScript onde as declarações de variáveis e funções são "movidas" para o topo de seu escopo antes da execução do código.
 
 - Em JavaScript, variáveis declaradas com var sofrem hoisting: elas são movidas para o topo de seu escopo antes da execução do código. No entanto, só ficam disponíveis após serem atribuídas.
 - Com let e const, somente a declaração é movida para o topo, mas o código não pode acessar a variável antes de sua declaração no código fonte. Isso cria a temporal dead zone (TDZ), onde o acesso à variável antes da sua inicialização resulta em um erro (ReferenceError).
