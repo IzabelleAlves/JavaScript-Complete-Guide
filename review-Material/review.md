@@ -45,3 +45,13 @@ Uma função de callback é uma função passada como argumento para outra funç
 ## 9. O que é Hoisting em JavaScript?
 
 **Hoisting** é o comportamento do JavaScript onde declarações de variáveis e funções são "movidas" para o topo de seu escopo antes da execução do código.
+
+## 10. Quais são os tipos de dados primitivos em JavaScript?
+
+1. **String**: Sequência de caracteres, por exemplo, `"Olá, mundo!"`.
+2. **Number**: Números inteiros e decimais, por exemplo, `42`, `3.14`.
+3. **Boolean**: Verdadeiro ou falso, por exemplo, `true`, `false`.
+4. **Undefined**: Valor de uma variável não inicializada.
+5. **Null**: Representa a ausência intencional de valor.
+6. **Symbol**: Valor único e imutável, introduzido no ES6.
+7. **BigInt**: Representa números inteiros muito grandes, introduzido no ES2020.
