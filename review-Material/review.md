@@ -55,3 +55,29 @@ Uma função de callback é uma função passada como argumento para outra funç
 5. **Null**: Representa a ausência intencional de valor.
 6. **Symbol**: Valor único e imutável, introduzido no ES6.
 7. **BigInt**: Representa números inteiros muito grandes, introduzido no ES2020.
+
+## 11. Quais são os operadores em JavaScript?
+
+1. Operadores Aritméticos
+2. Operadores Unários
+3. Operadores de Atribuição
+4. Operadores de Comparação
+5. Operadores Lógicos
+6. Operador Ternário
+
+## 12. Qual a diferença prática entre usar `if-else` e `switch` para validação de múltiplas condições?
+
+- O `if-else` é mais flexível, pois permite validar expressões complexas e combinações de condições.
+- O `switch` é mais legível e eficiente para comparar um único valor contra múltiplas opções fixas. Exemplo:
+  ```javascript
+  switch (cor) {
+    case "vermelho":
+      console.log("Pare.");
+      break;
+    case "verde":
+      console.log("Siga.");
+      break;
+    default:
+      console.log("Cor inválida.");
+  }
+  ```
