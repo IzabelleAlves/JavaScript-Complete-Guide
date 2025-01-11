@@ -1,6 +1,6 @@
-# Índice de Operadores em JavaScript
+# Índice
 
-1. [Operadores Aritméticos](#Operadores-Aritmeticos)
+1. [Operadores Aritméticos](#operadores-aritmeticos)
 2. [Operadores Unários](#operadores-unarios)
 3. [Operadores de Atribuição](#operadores-de-atribuicao)
 4. [Operadores de Comparação](#operadores-de-comparacao)
