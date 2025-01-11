@@ -105,7 +105,7 @@ console.log(a > 5); // true
 console.log(a <= 9); // false
 ```
 
-## **3. Operadores Lógicos**
+## Operadores Lógicos
 
 Os operadores lógicos são usados para combinar condições ou inverter valores booleanos.
 
