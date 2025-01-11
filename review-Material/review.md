@@ -69,6 +69,7 @@ Uma função de callback é uma função passada como argumento para outra funç
 
 - O `if-else` é mais flexível, pois permite validar expressões complexas e combinações de condições.
 - O `switch` é mais legível e eficiente para comparar um único valor contra múltiplas opções fixas. Exemplo:
+
   ```javascript
   switch (cor) {
     case "vermelho":
