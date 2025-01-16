@@ -82,3 +82,16 @@ Uma função de callback é uma função passada como argumento para outra funç
       console.log("Cor inválida.");
   }
   ```
+
+## 13. O que é uma função em JavaScript? Como ela é declarada e usada?
+
+Uma função em JavaScript é um bloco de código projetado para realizar uma tarefa específica. Funções podem receber entradas (parâmetros), realizar operações, retornar um valor e ser reutilizada.
+
+**Declaração de uma função**
+Uma função pode ser declarada usando a palavra-chave `function`, seguida pelo nome da função, uma lista de parâmetros (opcional) entre parênteses e o corpo da função entre chaves.
+
+```javascript
+function saudacao(nome) {
+  return `Olá, ${nome}!`;
+}
+```
