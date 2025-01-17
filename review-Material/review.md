@@ -95,3 +95,5 @@ function saudacao(nome) {
   return `Olá, ${nome}!`;
 }
 ```
+
+## 14. `!!` (dupla negação) em JavaScript é uma maneira prática de converter qualquer valor em seu correspondente booleano
