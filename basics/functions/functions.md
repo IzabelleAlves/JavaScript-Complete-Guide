@@ -45,3 +45,21 @@ function somar(a, b) {
 }
 console.log(somar(3, 5)); // '3' e '5' são os argumentos.
 ```
+
+## A função pode ou não retornar um valor
+
+(**e até mesmo qualquer valor**)
+
+Se define um valor usando o `return` dentro da função. Quando não definimos o return, ela irá retornar `undefined`. O código interno da função é executado normalmente, independentemente de existir valor de return ou não.
+
+```javascript
+function imc(peso, altura) {
+  const imc = peso / altura ** 2;
+  console.log(imc);
+}
+
+imc(80, 1.8);
+//retorna o imc
+console.log(imc(80, 1.8));
+//retorna o valor do imc e 'undefined'
+```
