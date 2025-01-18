@@ -1,6 +1,7 @@
 # Introdução a Objetos em JavaScript
 
 - Conjunto de variáveis e funções que são chamadas de propriedades e métodos.
+- Permitem a interação entre JS e Browser.
 - Os **objetos** são um dos principais pilares do JS, permitindo a organização em pequenas partes, estruturação e reutilização do código. Em termos simples, um objeto é uma coleção de **propriedades**, onde cada propriedade é composta por um **par chave-valor**.
 - Objetos têm acesso às variáveis que foram criadas fora dele.
 
@@ -110,3 +111,50 @@ var menu = {
 
 menu.hasOwnProperty("color"); //false, pq não existe no objeto.
 ```
+
+## Tudo é Objeto
+
+- Em js, tudo é objeto. Strings, números, boolean, objetos e mais, possuem propriedades e métodos e por isso são objetos.
+
+### String
+
+```javascript
+var nome = "Iza";
+
+nome.length; // 3
+nome.charArt(1); //'z'
+nome.replace("za", "zinha"); //'izinha'
+nome; //'Iza'
+```
+
+- Uma string herda propriedades e métodos do construtor `String()`.
+- Se foi acessar algo e não é um método/função, é uma propriedade.
+
+### Number
+
+```javascript
+var altura = 1.69;
+
+altura.toString(); // '1.69' - converte p string
+altura.toFixed(1); // 1.7 - arrendonda
+```
+
+- Por um breve momento o número é envolvido em um Objeto (coerção), tendo acesso, assim, às suas propriedades e étodos.
+
+### Funções
+
+- Também possuem métodos e propriedades
+
+```javascript
+function areaQuadrado(lado) {
+  return lado * lado;
+}
+
+areaQuadrado.toString(); //converte a função em texto, em string.
+
+areaQuadrado.length; // saída: 1 - diz a quantidade de argumentos/parâmetro que essa função tem/pode ter.
+```
+
+## Elementos do DOM (Document Object Model)
+
+- Praticamente todos os efeitos com JS são feitos utilizando propriedades e métodos de Objetos do DOM.

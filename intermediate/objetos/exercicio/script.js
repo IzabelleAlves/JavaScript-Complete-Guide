@@ -34,3 +34,20 @@ let cachorro = {
     }
   },
 };
+
+// Nomeie 3 propriedades ou métodos de strings
+var nome = "Izabelle";
+// fixed;
+// length;
+// slice;
+
+// Nomeie 5 propriedades ou métodos de elementos do DOM
+var btn = document.querySelector(".btn");
+// addEventListener
+// appendChild
+// innerHtml
+//id
+console.log(btn);
+
+// Busque na web um objeto (método) capaz de interafir com o clipboard,
+//clipboard é a parte do computador que lida com o CTRL + C e CTRL + V
