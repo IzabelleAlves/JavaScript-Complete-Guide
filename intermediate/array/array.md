@@ -30,12 +30,13 @@ videoGames[1]; // acessa a posição 2: 'PS4'
 **Métodos**
 Os métodos de um array são funções embutidas que permitem realizar operações nos arrays, como adicionar, remover, manipular ou iterar elementos. Exemplo:
 
-1. pop() -> Remove o ultimo item e retorna ele
-2. push() -> Adiciona um elemento ao final do array
+1. pop() -> Remove o ultimo item e retorna ele.
+2. push() -> Adiciona um elemento ao final do array.
 3. shift() -> Remove o primeiro elemento do array.
-4. unshift() -> Adiciona elementos no início do array
-5. indexOf() -> Retorna o índice do primeiro elemento encontrado
+4. unshift() -> Adiciona elementos no início do array.
+5. indexOf() -> Retorna o índice do primeiro elemento encontrado.
 6. includes() -> Verifica se um elemento existe no array.
+   **Existem MUITOS outros métodos**
 
 **Propriedades**
 As propriedades são características ou atributos que fornecem informações sobre o array, como o número de elementos ou o tipo do objeto. Exemplo: `Length` retorna o número de elementos no array:
