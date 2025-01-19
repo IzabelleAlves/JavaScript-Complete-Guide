@@ -97,3 +97,7 @@ function saudacao(nome) {
 ```
 
 ## 14. `!!` (dupla negação) em JavaScript é uma maneira prática de converter qualquer valor em seu correspondente booleano
+
+## 15. O que é um array?
+
+Um array é uma estrutura de dados usada para armazenar vários valores em uma única variável. Os valores são organizados em uma sequência e podem ser acessados usando índices, que geralmente começam em 0.
