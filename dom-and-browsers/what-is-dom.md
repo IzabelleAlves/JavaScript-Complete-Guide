@@ -60,7 +60,7 @@ A manipulação do DOM é frequentemente feita com métodos e propriedades forne
 </html>
 ```
 
-### O DOM se estrutura em forma de árvore, além de permitir que os desenvolvedores acessem e modifiquem o conteúdo, a estrutura e o estilo de um documento web de forma dinâmica.
+### Como é a estrutura do DOM
 
 | 🌳 Conceito              | Descrição                                                                                                                                                                                                                                                   |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
