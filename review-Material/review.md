@@ -114,6 +114,6 @@ O DOM (Document Object Model) é uma interface que representa a estrutura de um 
 
 **Principais objetos:**
 
-`document` (representa o documento inteiro).
-`window` (representa a janela do navegador).
-Elementos HTML, como `div`, `p`, `img`, etc.
+- `document` (representa o documento inteiro).
+- `window` (representa a janela do navegador).
+- Elementos HTML, como `div`, `p`, `img`, etc.
