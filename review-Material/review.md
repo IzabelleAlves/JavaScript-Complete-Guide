@@ -101,3 +101,19 @@ function saudacao(nome) {
 ## 15. O que é um array?
 
 Um array é uma estrutura de dados usada para armazenar vários valores em uma única variável. Os valores são organizados em uma sequência e podem ser acessados usando índices, que geralmente começam em 0.
+
+## 16. O que é um loop?
+
+Um loop é uma estrutura de programação que permite repetir um bloco de código várias vezes, com base em uma condição. Por exemplo, é usado para executar ações enquanto uma condição for verdadeira ou para percorrer elementos de uma lista.
+
+## 17. O que é o DOM e quais os seus principais objetos?
+
+O DOM (Document Object Model) é uma interface que representa a estrutura de um documento HTML ou XML como uma árvore de objetos. Ele permite acessar e manipular elementos, atributos e conteúdos da página de forma dinâmica, trazendo interatividade à página.
+
+- Não é interessante manipular o DOM diretamente com JavaScript puro, pois frameworks e bibliotecas como React, Vue e Svelte oferecem formas mais organizadas, eficientes e práticas de fazer isso.
+
+**Principais objetos:**
+
+`document` (representa o documento inteiro).
+`window` (representa a janela do navegador).
+Elementos HTML, como `div`, `p`, `img`, etc.
