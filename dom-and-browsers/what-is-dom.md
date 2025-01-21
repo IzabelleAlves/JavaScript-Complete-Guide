@@ -69,3 +69,17 @@ A manipulação do DOM é frequentemente feita com métodos e propriedades forne
 | **Nós (Node)**           | Cada elemento no HTML (como uma tag `<p>` ou `<div>`) é um nó na árvore do DOM. Existem diferentes tipos de nós, incluindo elementos, atributos, textos e comentários.                                                                                      |
 | **Acesso e Manipulação** | Com o DOM, você pode usar JavaScript para acessar qualquer nó e modificar suas propriedades, conteúdo ou estilo. Exemplo: alterar o texto dentro de um parágrafo, modificar o atributo `src` de uma imagem ou adicionar uma nova classe a um elemento.      |
 | **Eventos**              | O DOM permite adicionar eventos a elementos, como cliques de botão ou movimentos de mouse, e definir como o script deve responder a esses eventos. Isso é essencial para tornar as páginas interativas.                                                     |
+
+```javascript
+console.log(window);
+// window é o objeto global do browser
+// é o objeto padrão do browser
+// possui diferentes métodos e propriedades
+
+window.innerHeight;
+```
+
+## Window e Document
+
+- São os objetos principais do DOM, boa parte da manipulação é feita através dos seus métodos e propriedades.
+- Window é objeto global, por isso não precisamos chamá-lo na frente dos métodos e propriedades.
