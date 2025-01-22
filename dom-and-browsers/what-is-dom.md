@@ -83,3 +83,13 @@ window.innerHeight;
 
 - São os objetos principais do DOM, boa parte da manipulação é feita através dos seus métodos e propriedades.
 - Window é objeto global, por isso não precisamos chamá-lo na frente dos métodos e propriedades.
+
+## Node
+
+- Toda tag HTML é representada pelo objeto Element e por isso herda os seus métodos e propriedades. Element é um tipo de objeto Node.
+
+1.  No DOM, cada tag HTML (como <div>, <p>, <button>, etc.) é representada como um objeto do tipo `Element`. Por exemplo, quando você acessa `document.querySelector('div')`, o que você obtém é um objeto `Element` que representa essa tag.
+2.  "Herdar métodos e propriedades":
+    Como no JavaScript os objetos podem herdar métodos e propriedades de outros objetos, um objeto `Element` herda funcionalidades de uma estrutura maior chamada Node. Por exemplo, os métodos comuns a todos os tipos de nós (como `appendChild()` ou `removeChild()`) vêm da classe Node.
+3.  "Element é um tipo de objeto Node"
+    No DOM, o `Node` é uma classe mais genérica que representa qualquer nó em um documento HTML, incluindo elementos, texto, comentários e outros tipos de nós. Como Element é uma subclasse de `Node`, todo Element também é um Node e herda os métodos e propriedades de Node.
