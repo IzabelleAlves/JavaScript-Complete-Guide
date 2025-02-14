@@ -93,3 +93,41 @@ window.innerHeight;
     Como no JavaScript os objetos podem herdar métodos e propriedades de outros objetos, um objeto `Element` herda funcionalidades de uma estrutura maior chamada Node. Por exemplo, os métodos comuns a todos os tipos de nós (como `appendChild()` ou `removeChild()`) vêm da classe Node.
 3.  "Element é um tipo de objeto Node"
     No DOM, o `Node` é uma classe mais genérica que representa qualquer nó em um documento HTML, incluindo elementos, texto, comentários e outros tipos de nós. Como Element é uma subclasse de `Node`, todo Element também é um Node e herda os métodos e propriedades de Node.
+
+## Seleção de Elementos no DOM
+
+**`getElementsByClassName`**
+
+Retorna uma coleção de elementos com a classe especificada.
+
+`document.getElementsByClassName("classe");`
+
+Exemplo:
+
+```javascript
+<p class="texto">Parágrafo 1</p>
+<p class="texto">Parágrafo 2</p>
+<script>
+    let itens = document.getElementsByClassName("texto");
+    for (let item of itens) item.style.color = "blue";
+</script>
+```
+
+**`getElementsByTagName`**
+
+Retorna uma coleção de elementos com a tag especificada.
+
+`document.getElementsByTagName("tag");`
+
+Exemplo:
+
+```javascript
+<p>Parágrafo 1</p>
+<p>Parágrafo 2</p>
+<script>
+    let itens = document.getElementsByTagName("p");
+    for (let item of itens) item.style.fontWeight = "bold";
+</script>
+```
+
+Ambos retornam uma HTMLCollection, que se atualiza dinamicamente conforme o DOM muda.
