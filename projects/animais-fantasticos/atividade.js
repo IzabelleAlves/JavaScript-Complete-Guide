@@ -27,7 +27,7 @@ function atividadeUm() {
 
   console.log(ultimoP[--ultimoP.length]);
 }
-atividadeUm();
+// atividadeUm();
 
 function atividadeDois() {
   const imgs = document.querySelectorAll("img");
@@ -49,4 +49,15 @@ function atividadeDois() {
     console.log(item.innerText);
   });
 }
-atividadeDois();
+// atividadeDois();
+
+function testandoOClasslist() {
+  const menu = document.querySelector(".menu");
+  menu.classList.add("ativo");
+  menu.classList.add("ativooo", "testee2");
+  menu.classList.remove("ativo");
+  menu.classList.toggle("red");
+
+  console.log(menu.className);
+}
+testandoOClasslist();
