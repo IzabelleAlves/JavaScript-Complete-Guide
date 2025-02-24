@@ -100,4 +100,4 @@ function attributes() {
   //   links.setAttribute("href", "google.com");
   //
 }
-attributes();
+// attributes();
