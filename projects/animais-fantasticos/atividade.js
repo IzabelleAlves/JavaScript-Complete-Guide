@@ -60,4 +60,44 @@ function testandoOClasslist() {
 
   console.log(menu.className);
 }
-testandoOClasslist();
+// testandoOClasslist();
+
+function attributes() {
+  const animais = document.querySelector(".animais");
+
+  console.log(animais.attributes); //retorna todos os atributos
+  // console.log(animais.attributes["data-texto"]); //retorna o primeiro os atributo
+
+  // Adicione a classe 'ativo' em todos os itens do menu
+
+  const menu = document.querySelectorAll(".menu a");
+
+  menu.forEach((item) => {
+    item.classList.add("ativo");
+  });
+  console.log(menu);
+
+  // Remova a classe 'ativo' de todos os itens do menu e matenha apenas no primeiro
+  menu.forEach((item) => {
+    item.classList.remove("ativo");
+  });
+  console.log(menu);
+
+  menu[0].classList.add("ativo");
+
+  //Verifique se as imagens possuem o atributo 'alt'
+
+  const imgs = document.querySelectorAll("img");
+
+  imgs.forEach((item) => {
+    const possuiAtributo = item.hasAttribute("alt");
+    console.log(item, possuiAtributo);
+  });
+
+  // Modifique o href do link externo do menu
+
+  //   const links = document.querySelector('a[href^="http"]');
+  //   links.setAttribute("href", "google.com");
+  //
+}
+attributes();
