@@ -164,4 +164,13 @@ function windoww() {
   }
   console.log(menu);
 }
-windoww();
+// windoww();
+
+// function evento() {
+const img = document.querySelector("img");
+
+img.addEventListener("click", () => {
+  console.log("Clicou");
+});
+// }
+// evento();
