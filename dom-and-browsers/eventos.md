@@ -68,3 +68,7 @@ document.addEventListener("click", function (event) {
   console.log(`Clique em X: ${event.clientX}, Y: ${event.clientY}`);
 });
 ```
+
+### Palavra `this` em Eventos
+
+- Aqui, ela fará referência ao elemento em que o addEventListener foi adicionado.
