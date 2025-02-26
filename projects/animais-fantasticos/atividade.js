@@ -180,23 +180,23 @@ function eventos() {
   // adicione a classe 'ativo' ao item clicado e remova dos demais itens caso eles já possuam.
   // Previna o comportamento padrão dos links
 
-  const linksInternos = document.querySelectorAll('a[href^="#"]');
-  // console.log(linksInternos);
+  // const linksInternos = document.querySelectorAll('a[href^="#"]');
+  // // console.log(linksInternos);
 
-  function handleClick(event) {
-    event.preventDefault();
+  // function handleClick(event) {
+  //   event.preventDefault();
 
-    linksInternos.forEach((link) => {
-      link.classList.remove("ativo");
-    });
+  //   linksInternos.forEach((link) => {
+  //     link.classList.remove("ativo");
+  //   });
 
-    event.currentTarget.classList.add("ativo");
-    // ou: this.classList.add("ativo");
-  }
+  //   event.currentTarget.classList.add("ativo");
+  //   // ou: this.classList.add("ativo");
+  // }
 
-  linksInternos.forEach((link) => {
-    link.addEventListener("click", handleClick);
-  });
+  // linksInternos.forEach((link) => {
+  //   link.addEventListener("click", handleClick);
+  // });
 
   // Selecione todos os elementos do site começando a partir do body,
   //ao clique mostre extamente quais elementos estão sendo clicados
@@ -233,3 +233,24 @@ function eventos() {
   window.addEventListener("keydown", handleClickT);
 }
 eventos();
+
+function testeScroll() {
+  const linksInternos = document.querySelectorAll('a[href^="#"]');
+
+  function handleClick(event) {
+    event.preventDefault();
+
+    const href = event.currentTarget.getAttribute("href");
+    const section = document.querySelector(href);
+
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
+
+  linksInternos.forEach((link) => link.addEventListener("click", handleClick));
+}
+testeScroll();
