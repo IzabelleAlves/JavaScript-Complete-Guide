@@ -23,3 +23,25 @@ const celsinho = new Pessoa("celsinho", 22);
 // Crie uma Constructor Function (Dom) para manipulação
 // de listas de elementos do dom. Deve conter as seguintes
 // propriedades e métodos:
+
+// elements, retorna NodeList com os elementos elecionados
+// addClass(classe), adiciona a classe a todos os elementos
+// removeClass(classe), remove a classe a todos os elementos
+
+function Dom(seletor) {
+  this.elements = document.querySelectorAll(seletor);
+  this.addClass = function (classe) {
+    this.elements.forEach((e) => {
+      e.classList.add(classe);
+    });
+  };
+  this.removeClass = function (classe) {
+    this.elements.forEach((e) => {
+      e.classList.remove(classe);
+    });
+  };
+}
+
+const lista = new Dom("li");
+lista.addClass("ativo");
+lista.removeClass("ativo");
