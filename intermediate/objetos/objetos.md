@@ -1,5 +1,6 @@
 # Introdução a Objetos em JavaScript
 
+- Em JavaScript, objetos são a base da linguagem. Um objeto é uma coleção dinâmica de pares chave-valor, podendo conter propriedades e métodos.
 - Conjunto de variáveis e funções que são chamadas de propriedades e métodos.
 - Permitem a interação entre JS e Browser.
 - Os **objetos** são um dos principais pilares do JS, permitindo a organização em pequenas partes, estruturação e reutilização do código. Em termos simples, um objeto é uma coleção de **propriedades**, onde cada propriedade é composta por um **par chave-valor**.
