@@ -31,12 +31,15 @@ let iza = new Pessoa("Izabelle", "Alves", 22);
 // liste os construtores dos dados abaixo
 const li = document.querySelector("li");
 
-li;
-li.click;
-li.innerText;
-li.hidden;
-li.offsetLeft;
-li.click();
+// `.constructor.name` retorna o nome do construtor do objeto, ou seja, o nome do tipo do valor.
+
+li; // li.constructor.name  // HTMLLICollection
+li.click; // li.click.constructor.name //  Function
+li.innerText; // li.innerText.constructor.name // String
+li.value; // li.value.constructor.name // Number
+li.hidden; // li.hidden.constructor.name // Boolean
+li.offsetLeft; // li.offsetLeft.constructor.name //  Number
+li.click(); // li.click() // undefined
 
 // qual o constructor do dado abaixo?
-li.hidden.constructor.name;
+li.hidden.constructor.name; // inteiro retorna uma string, mas é no fundo um boolean
