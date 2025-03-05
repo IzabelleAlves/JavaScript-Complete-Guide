@@ -159,3 +159,77 @@ areaQuadrado.length; // saída: 1 - diz a quantidade de argumentos/parâmetro qu
 ## Elementos do DOM (Document Object Model)
 
 - Praticamente todos os efeitos com JS são feitos utilizando propriedades e métodos de Objetos do DOM.
+
+## Diferentes tipos de objetos
+
+### **A. Native**
+
+### **B. Host**
+
+### **C. User**
+
+**A. Native**
+Os objetos nativos são aqueles fornecidos pela linguagem JavaScript, independentemente do ambiente em que o código está sendo executado. Exemplo: Se eu abrir qualquer browser, esses objetos existirão nele.
+
+🔹 Exemplos de objetos nativos:
+
+- Object
+- Array
+- String
+- Number
+- Function
+- Math
+- Date
+- RegExp
+
+> Esses objetos oferecem funcionalidades essenciais para manipulação de dados, como métodos para arrays (map, filter, reduce), manipulação de strings (toUpperCase, slice) e operações matemáticas (Math.random, Math.floor).
+
+**B. Host (Hospedeiros)**
+Os objetos host são fornecidos pelo ambiente no qual o JavaScript está rodando (exemplo: o browser). Eles não fazem parte da linguagem em si, mas são disponibilizados pelo contexto de execução, como o navegador ou o Node.js.
+
+🔹 Exemplos no navegador (DOM e Web APIs):
+
+- window
+- document
+- console
+- fetch
+- localStorage
+
+🔹 Exemplos no Node.js:
+
+- process
+- fs (File System)
+- http
+
+> Cada ambiente pode fornecer diferentes objetos host, permitindo interações específicas, como manipulação do DOM no navegador ou operações de sistema de arquivos no Node.js.
+
+**C. User (Definidos pelo Usuário)**
+Os objetos definidos pelo usuário são aqueles criados pelo próprio desenvolvedor, seja de forma literal ou através de funções construtoras e classes.
+
+Exemplo de objeto literal:
+
+```javascript
+const pessoa = {
+  nome: "Izabelle",
+  idade: 25,
+  falar: function () {
+    console.log(`Olá, meu nome é ${this.nome}!`);
+  },
+};
+
+pessoa.falar(); // "Olá, meu nome é Izabelle!"
+```
+
+🔹 Exemplo com função construtora:
+
+```javascript
+function Carro(marca, modelo) {
+  this.marca = marca;
+  this.modelo = modelo;
+}
+
+const meuCarro = new Carro("Toyota", "Corolla");
+console.log(meuCarro.marca); // "Toyota"
+```
+
+- Broswers diferentes podem implementar objetos diferentes.
