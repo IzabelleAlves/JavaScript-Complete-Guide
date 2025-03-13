@@ -62,3 +62,25 @@ conf.ano;
 ```
 
 > O `as` na importação `import * as conf from './configuracao.js'` serve para criar um `alias` (apelido) para o módulo inteiro.
+
+### `use strict`
+
+- O modo estrito ajuda a identificar erros silenciosos que, normalmente, seriam ignorados pelo JavaScript.
+- Basta adicionarmos `use strict` no topo de um arquivo, que ele entrará neste modo.
+- Ele impede a utilização de variáveis não declaradas.
+- Restringe o uso de palavras-chave reservadas para futuras versões do JavaScript.
+- Evita a criação acidental de variáveis globais.
+- Torna a atribuição a propriedades somente leitura ou a variáveis não atribuíveis um erro.
+- No caso de funções, impede a duplicação de parâmetros.
+- Pode ser ativado tanto no escopo global quanto dentro de uma função específica.
+
+**Exemplos**
+
+```js
+nome = "Ford"; // erro, variável global
+delete Array.prototype; // erro, não deletável
+window.top = 200; // erro, não pode mudar
+const arguments = 3.14; // erro, escrever em palavra reservada
+```
+
+> Por padrão, todo module está no `use strict`/modo estrito.
